@@ -118,7 +118,7 @@ Resources:
   myInstanceProfile:
     Type: AWS::IAM::InstanceProfile
     Properties:
-      InstanceProfileName: collins-SSM-phonebook-18-ip
+      InstanceProfileName: collins-SSM-phonebook-18
       Roles: # Required
         - !Ref mySSMRole
 
